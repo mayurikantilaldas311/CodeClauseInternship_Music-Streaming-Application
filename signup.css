@@ -1,0 +1,109 @@
+header {
+  background-color: black;
+  height: 65px;
+  top: 0px;
+  color: white;
+  font-size: 20px;
+  margin-left: -7px;
+  margin-top: -7px;
+}
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+/* #logo {
+  font-size: 30px;
+  margin-left: 75px;
+  margin-right: 20px;
+  color: white;
+} */
+main {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  margin-top: -22px;
+  margin-left: -7px;
+  height: 600px;
+  width: 1314px;
+}
+
+.signup-box {
+  width: 360px;
+  height: 595px;
+  margin: 0px 30px -70px 100px;
+  background-color: white;
+  border-radius: 8px;
+}
+.signup-box p {
+  margin-top: -12px;
+}
+.button{
+  cursor: pointer;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  margin-left: 275px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: rgb(8, 0, 0);
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: #0a146f;
+}
